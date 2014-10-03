@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  NavigationController.h
 //  com.palermo.mobile
 //
 //  Created by Sebastian  on 30/09/14.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface NavigationController : UINavigationController
 
 @end

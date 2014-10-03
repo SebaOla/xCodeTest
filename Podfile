@@ -4,7 +4,7 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
 target "test" do
-
+    pod 'JSONModel'
 end
 
 target "testTests" do

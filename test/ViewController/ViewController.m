@@ -1,8 +1,8 @@
 //
 //  ViewController.m
-//  test
+//  com.palermo.mobile
 //
-//  Created by Sebastian  on 03/10/14.
+//  Created by Sebastian  on 30/09/14.
 //  Copyright (c) 2014 hapsa. All rights reserved.
 //
 
@@ -18,6 +18,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    _barButton.target = self.revealViewController;
+    _barButton.action = @selector(revealToggle:);
+    [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
 }
 
 - (void)didReceiveMemoryWarning
